@@ -592,10 +592,12 @@ body {
 
     body {
         visibility: hidden;
-        height: 100px;
+        height: 400px;
+        background-color: #EBE3D6 !important;
     }
     #Landscape {
         visibility: visible;
+        margin-top: 100px;
     }
 
     .phone {
@@ -635,4 +637,3 @@ body {
     background-color: #1B4843 !important;
     margin-bottom: 0px;
 }
-
