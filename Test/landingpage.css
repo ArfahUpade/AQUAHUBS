@@ -592,7 +592,7 @@ body {
 
     body {
         visibility: hidden;
-        height: 500px;
+        height: 100px;
     }
     #Landscape {
         visibility: visible;
