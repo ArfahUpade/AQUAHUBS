@@ -584,5 +584,55 @@ body {
       }
 }
 
+@media only screen 
+  and (min-device-width: 730px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
 
+    body {
+        visibility: hidden;
+        height: 100%;
+    }
+    #Landscape {
+        visibility: visible;
+    }
+
+    .phone {
+        margin: auto;
+        height: 50px;
+        width: 100px;
+        border: 3px solid black;
+        border-radius: 10px;
+        animation: rotate 1.5s ease-in-out infinite alternate;
+        /* display: none; */
+      }
+      
+      .message {
+        text-align: center;
+        color: black;
+        font-size: 1em;
+        margin-top: 40px;
+        /* display: none; */
+      }
+      
+      @keyframes rotate {
+        0% {
+              transform: rotate(0deg)
+          }
+          50% {
+              transform: rotate(-90deg)
+          }
+          100% {
+              transform: rotate(-90deg)
+          }
+      }
+}
+
+.landscape {
+    visibility: hidden;
+    height: 0;
+    background-color: #1B4843 !important;
+    margin-bottom: 0px;
+}
 
