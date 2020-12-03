@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUAHUBS Real Estates</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="landingpage.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/accordion.css" /> -->
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/util.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./css/media.css" media="print">
+    <script>
+        document.getElementsByTagName("html")[0].className += " js";
+    </script>
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom inverted">
+        <a class="navbar-brand logo" href="landingpage.html">
+            <img src="images/Logo.PNG" width="150" height="50" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse collapsable-items inverted" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="landingpage.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hubs
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="landingpage.html#Hubs">Under The Surface Properties</a>
+                        <a class="dropdown-item" href="landingpage.html#OTS">On The Surface Properties</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="landingpage.html#Plots">Plots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="landingpage.html#Amenities">Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="landingpage.html#About">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" id="Btn-dark-mode" class="btn btn-dark btn-sm dark-mode-btn" style="font-size:1rem"
+                        onclick="myFunction()">Dark
+                        Mode</button>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="landingpage.html#Contact" class="contact-us-btn">Contact Us</a>
+                    </form>
+                </li>
+            </ul>
+            <div id="google_translate_element">
+                <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+                    <div id=":0.targetLanguage">
+
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript"
+                src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+        </div>
+    </nav>
+
+    <!-- CARDS START FROM HERE -->
+    <div id="Cards-page">
+
+        <input type="text" id="myInput" onkeyup="SearchFun()" placeholder="Search by property name"
+            title="Type in a name">
+        <span id="item"></span>
+
+        <ul id="myUL">
+
+            <!-- 1ST Row -->
+            <div class="row" id="uts-row">
+
+                <div class="col-md-3 card-container">
+
+                    <li id="lis"><a href="#" class="cards" style="padding: 0;">
+                            <div class="card cards" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/das.jpg" alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Escapadia Hubs</h5>
+                                    <p class="address">Marine Lands, Sector X101, Aqualand</p>
+                                    <h3 class="card-text">/|\<span class="item-price"> 169000</span></h3>
+
+                                    <p>Parking Charges: /|\<span class="parking_cost"> 1200</span></p>
+                                    <p>Gym Membership: /|\<span class="Gym_cost"> 1700</span></p>
+                                    <p class="type">Type: <span>Under The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;4 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;3&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;1050ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted"
+                                    src="images/f783abbb-8840-4f27-bc94-491c630db609-underwater-living.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Native Waters</h5>
+                                    <p class="address">Hydron Valley, Sector X111, Aqualand</p>
+                                    <h3 class="card-text"> /|\<span class="item-price">222000</span></h3>
+                                    <p></p>
+                                    <p>Parking Charges: /|\ <span class="parking_cost">2200</span></p>
+                                    <p>Gym Membership: /|\<span class="Gym_cost"> 1200</span></p>
+                                    <p class="type">Type: <span>Under The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;5 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;3&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;2050ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/1606559915714.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Pearl Islands</h5>
+                                    <p class="address">Pearl Lagoon, Sector Y101, Waterland</p>
+                                    <h3 class="card-text">/|\ <span class="item-price"> 134000</span></h3>
+                                    <p></p>
+                                    <p>Parking Charges: /|\<span class="parking_cost"> 800</span></p>
+                                    <p>Gym Membership: /|\ <span class="Gym_cost"> 1000</span></p>
+                                    <p class="type">Type: <span>Under The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;2 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;2&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;750ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+                </div>
+
+            </div>
+
+            <!-- 2ND Row -->
+            <div class="row" id="plot-row">
+
+                <div class="col-md-3 card-container">
+
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted"
+                                    src="images/floating-architecture-amillarah-private-islands.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Open Sealands</h5>
+                                    <p class="address">OpenSealands, Sector X101, Aqualand</p>
+                                    <h3 class="card-text">/|\<span class="item-price">980 <span class="sqft">/sqft
+                                                onwards</span></span>
+                                    </h3>
+                                    <p>Parking Construction: /|\<span class="parking_cost"> 8000</span></p>
+                                    <p>Gym Construction: /|\ <span class="Gym_cost"> 10000</span></p>
+                                    <p class="type">Type: <span>Plot</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <h5 class="key-features-heading">Key Features:</h5>
+                                    <p class="card-text key-features">
+                                        - 2060ft <sup>2</sup>
+                                        <br>
+                                        - Proximity to Sintel AquaAcademy
+                                        <br>
+                                        - 1 draft from Aqua Union Council Center
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/1606559915727.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Coral Reefs</h5>
+                                    <p class="address">Coral fields, Sector X111, Coralando</p>
+                                    <h3 class="card-text">/|\<span class="item-price">2200 <span class="sqft">/sqft
+                                                onwards</span></span>
+                                    </h3>
+                                    <p>Parking Construction: /|\<span class="parking_cost"> 12000</span></p>
+                                    <p>Gym Construction: /|\ <span class="Gym_cost"> 10000</span></p>
+                                    <p class="type">Type: <span>Plot</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <h5 class="key-features-heading">Key Features:</h5>
+                                    <p class="card-text key-features">
+                                        - 8060ft <sup>2</sup>
+                                        <br>
+                                        - Proximity IntraHub
+                                        <br>
+                                        - 1 draft from International Catamarans Services
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/1606559915700.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Arctic Fields</h5>
+                                    <p class="address">Arctic Fields, Sector Y301, Waterland</p>
+                                    <h3 class="card-text">/|\<span class="item-price">1140 <span class="sqft">/sqft
+                                                onwards</span></span>
+                                    </h3>
+                                    <p>Parking Construction: /|\<span class="parking_cost"> 10000</span></p>
+                                    <p>Gym Construction: /|\ <span class="Gym_cost"> 12300</span></p>
+                                    <p class="type">Type: <span>Plot</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <h5 class="key-features-heading">Key Features:</h5>
+                                    <p class="card-text key-features">
+                                        - 5060ft <sup>2</sup>
+                                        <br>
+                                        - Proximity to schools
+                                        <br>
+                                        - 2 drafts from International Catamarans Services
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+                </div>
+
+            </div>
+
+            <!-- 3RD Row -->
+            <div class="row" id="ots-row">
+
+                <div class="col-md-3 card-container">
+
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/1606480055233.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Hybrid Towers</h5>
+                                    <p class="address">Marine Lands, Sector X101, Aqualand</p>
+                                    <h3 class="card-text">/|\<span class="item-price"> 170000</span></h3>
+                                    <p></p>
+                                    <p>Parking Charges: /|\<span class="parking_cost"> 1300</span></p>
+                                    <p>Gym Membership: /|\<span class="Gym_cost"> 1800</span></p>
+                                    <p class="type">Type: <span>On The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;4 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;3&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;1060ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted"
+                                    src="images/dec91792a72a2e30d3fd59488a933ddb.jpg" alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Siren Waters</h5>
+                                    <p class="address">Siren Nest, Sector Y141, Coralando</p>
+                                    <h3 class="card-text"> /|\<span class="item-price"> 222000</span></h3>
+                                    <p></p>
+                                    <p>Parking Charges: /|\<span class="parking_cost"> 2200</span></p>
+                                    <p>Gym Membership: /|\<span class="Gym_cost"> 1200</span></p>
+                                    <p class="type">Type: <span>On The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;4 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;3&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;2050ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+
+                            </div>
+                        </a></li>
+                </div>
+
+                <div class="col-md-3 card-container">
+                    <li id="lis"><a href="#" style="padding: 0;">
+                            <div class="card" style="width: 18rem; border-radius: 0;">
+                                <img class="card-img-top item-image inverted" src="images/1513216597-9046-homes-0.jpg"
+                                    alt="Card image cap">
+                                <hr style="width:100%; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+                                    <h5 class="card-title item-title ">Emerald Hubs</h5>
+                                    <p class="address">Pearl Lagoon, Sector Y101, Waterland</p>
+                                    <h3 class="card-text">/|\<span class="item-price"> 104000</span></h3>
+                                    <p></p>
+                                    <p>Parking Charges: /|\<span class="parking_cost"> 500</span></p>
+                                    <p>Gym Membership: /|\<span class="Gym_cost"> 600</span></p>
+                                    <p class="type">Type: <span>On The Surface Hub</span></p>
+
+                                </div>
+
+                                <hr style="width:16rem; margin: auto;background-color: #1B4843; height:1px;" />
+                                <div class="card-body">
+
+                                    <p class="card-text icons">
+                                        <i class="fa fa-bed" aria-hidden="true"></i>&nbsp;&nbsp;2 | &nbsp;
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;1&nbsp; | &nbsp;
+                                        <i class="fa fa-building" aria-hidden="true"></i>&nbsp;750ft<sup>2</sup>
+
+                                    </p>
+
+                                </div>
+                                <div class="item-details">
+                                    <button class="cd-add-to-cart js-cd-add-to-cart btnBuy  item-button"
+                                        type="button">Book Now</button>
+                                </div>
+                            </div>
+                        </a></li>
+                </div>
+
+            </div>
+        </ul>
+
+    </div>
+    <hr>
+
+    <div class="cd-cart  cd-cart--empty js-cd-cart">
+        <a href="#0" class="cd-cart__trigger text-replace">
+
+            <ul class="cd-cart__count">
+                <!-- cart items count -->
+                <li class="cd-cartsss">0</li>
+                <li>0</li>
+
+            </ul>
+            <!-- .cd-cart__count -->
+        </a>
+
+        <div class="cd-cart__content">
+            <div class="cd-cart__layout">
+                <header class="cd-cart__header">
+                    <h2>Cart</h2>
+
+                </header>
+
+                <div class="cd-cart__body">
+                    <ul>
+
+
+                        <section id="section-to-print" class="container content-section">
+
+                            <div class="cart-row">
+                                <span class="cart-item cart-header cart-column">ITEM</span>
+                                <span class="cart-price cart-header cart-column">PRICE</span>
+                                <span class="cart-quantity cart-header cart-column"> AMENITIES</span>
+                            </div>
+                            <div class="cart-items inverted">
+                            </div>
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Total</strong>
+                                <span class="cart-total-price">0</span>
+                            </div>
+
+                        </section>
+                </div>
+                </ul>
+                <footer class="cd-cart__footer" onclick="window.print()">
+                    <a href="#0" class="cd-cart__checkout">
+                        <em>&nbsp;&nbsp; Checkout: /|\ <span class="cart-total-cost"></span>
+
+                        </em>
+                    </a>
+                </footer>
+            </div>
+        </div> <!-- .cd-cart__content -->
+    </div> <!-- cd-cart -->
+    <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+    <script src="https://use.fontawesome.com/670b1f01a8.js"></script>
+    <script src="./card.js"></script>
+
+    <script>
+        function myFunction() {
+            // $('.dark-mode-btn').text($(".dark-mode-btn").text() == "Dark Mode" ? "Dark Mode" : "Light mode");
+            document.documentElement.classList.toggle('dark-mode');
+            // document.getElementById('About-us-para').style.color = '#56A399';
+            document.querySelectorAll(".inverted").forEach((result) => {
+                result.classList.toggle('invert');
+            });
+            // document.querySelector('#Banner-header dark-mode-dark-green').classList.toggle('light-green');
+            jQuery('.dark-mode-dark-green').each(function () {
+                $(this).toggleClass('light-green');
+            })
+            jQuery('.cart-text').each(function () {
+                $(this).toggleClass('light-green');
+            })
+            if ($('.dark-mode-btn').text() === "Light Mode") {
+                $('.dark-mode-btn').text("Dark Mode");
+            } else {
+                $('.dark-mode-btn').text("Light Mode");
+            }
+        }
+        document.getElementById("myInput").setAttribute("placeholder", localStorage.getItem("itemSelected"));
+        if (localStorage.getItem("itemSelected") == "Search by property name") {
+            document.getElementById("uts-row").style.display = "visible";
+            document.getElementById("plot-row").style.display = "visible";
+            document.getElementById("ots-row").style.display = "visible";
+            document.title = "AQUAHUBS Properties"
+        }
+        if (localStorage.getItem("itemSelected") == "Under The Surface Properties") {
+            document.getElementById("plot-row").style.display = "none";
+            document.getElementById("ots-row").style.display = "none";
+            document.title = "AQUAHUBS Under The Surface Hubs"
+        }
+        if (localStorage.getItem("itemSelected") == "On The Surface Properties") {
+            document.getElementById("plot-row").style.display = "none";
+            document.getElementById("uts-row").style.display = "none";
+            document.title = "AQUAHUBS On The Surface Hubs"
+        }
+        if (localStorage.getItem("itemSelected") == "Plots") {
+            document.getElementById("ots-row").style.display = "none";
+            document.getElementById("uts-row").style.display = "none";
+            document.title = "AQUAHUBS Plots"
+        }
+    </script>
+
+</body>
+
+</html>
+<!-- 
+<i class="fa fa-bed" aria-hidden="true"></i>
+<i class="fa fa-lightbulb-o" aria-hidden="true"> -->

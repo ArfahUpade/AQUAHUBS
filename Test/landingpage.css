@@ -1,0 +1,588 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* DARK MODE */
+
+.dark-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.invert {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.light-green {
+    color: #9ECBC6 !important;
+}
+
+/* Navbar */
+
+.navbar-custom {
+    background: #1B4843;
+    position: fixed;
+    z-index: 5;
+    padding: 0;
+    width: 100%;
+    border-bottom: #1B4843 1px solid;
+}
+
+.collapsable-items {
+    background-color: #EBE3D6;
+    margin: 0;
+    height: 100%;
+    padding: 25px;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.nav-item {
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B4843;
+    font-weight: 550;
+}
+
+.dark-mode-btn {
+    font-size: small;
+    box-shadow: 0px 2px 4px #317E74;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-btn-nav-item {
+    margin-left: 11px;
+}
+
+.contact-us-btn {
+    background-color: #1B4843;
+    border: none;
+    color: #EBE3D6;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 13px;
+    box-shadow: 0px 2px 4px #317E74;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-us-btn:hover {
+    background-color: #EBE3D6;
+    color: #1B4843; 
+    text-decoration: none; 
+}
+
+/* Banner */
+
+#Banner {
+    padding: 80px 80px;
+    background-color: #1B4843;
+    
+}
+
+#Banner h1 {
+    color: #EBE3D6;
+    font-family: "Libre Baskerville";
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 69px;
+    margin: 70px 0 50px;
+}
+
+#Banner a {
+    width: 45%;
+    font-weight: 700;
+}
+
+.banner-img-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Banner img {
+    width: 70%;
+}
+.explore-view-btn {
+    padding: 2.5% 14%;
+    font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #ebe3d6;
+  box-shadow: 0px 2px 4px #ebe3d6;
+  color: #317E74;
+}
+
+.explore-view-btn:hover {
+    text-decoration: none;
+    background: #1B4843;
+    color: #EBE3D6;
+    box-shadow: 0px 2px 4px #ebe3d6;
+}
+
+/* HUBS */
+#Hubs {
+    background-color: #EBE3D6;
+    padding: 50px;
+    font-family: 'Libre Baskerville', serif;
+    color: #1B4843;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 20px;
+    color: #317E74;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.count {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.count p {
+    font-family: 'Montserrat', sans-serif;
+    color: #317E74;
+    font-weight: 400;
+}
+
+/* Under The Surface Properties */
+
+.under-the-surface {
+    margin-top: 60px;
+    background-color: #317E74;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(100,100,100,0.5);
+  padding: 60px 60px 80px;
+}
+
+.under-the-surface h1 {
+    font-size: 45px;
+  font-weight: 700;
+  line-height: 69px;
+  color: #ebe3d6;
+}
+
+.uts-desc {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 40px;
+}
+
+.uts-view-btn {
+    padding: 2.5% 14%;
+    font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #ebe3d6;
+  box-shadow: 0px 2px 4px #ebe3d6;
+  color: #317E74;
+}
+
+.uts-view-btn:hover {
+    text-decoration: none;
+    background: #1B4843;
+    color: #EBE3D6;
+    box-shadow: 0px 2px 4px #ebe3d6;
+}
+
+.uts-img-container {
+
+    position: relative;
+    text-align: center;
+
+}
+
+.uts-img {
+    width: 100%;
+    box-shadow: 0px 4px 30px #1B4843;
+}
+
+/* On The Surface Properties */
+
+.on-the-surface {
+    margin-top: 100px;
+    background-color: #1B4843;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(100,100,100,0.5);
+  padding: 60px 60px 80px;
+}
+
+.on-the-surface h1 {
+    font-size: 45px;
+  font-weight: 700;
+  line-height: 69px;
+  color: #ebe3d6;
+}
+
+.ots-view-btn {
+    padding: 2.5% 14%;
+    font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #ebe3d6;
+  box-shadow: 0px 2px 4px #ebe3d6;
+  color: #317E74;
+}
+
+.ots-view-btn:hover {
+    text-decoration: none;
+    background: #317E74;
+    color: #EBE3D6;
+    box-shadow: 0px 2px 4px #ebe3d6;
+}
+
+.ots-img {
+    width: 80%;
+    box-shadow: 0px 4px 15px black;
+}
+
+/* Plots */
+
+#Plots {
+    background-color: #317E74;
+    padding: 50px 50px 80px;
+    font-family: 'Libre Baskerville', serif;
+    color: #1B4843;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plots-heading {
+    color: #EBE3D6;
+    text-align: left;
+}
+
+.plot-description {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.plot-count {
+    text-align: center;
+    margin-top: 50px;
+    color: #EBE3D6;
+}
+
+.plot-count p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+#Plots .row {
+    margin-bottom: 60px;
+}
+
+.plots-view-btn {
+    padding: 1.5% 19%;
+    font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #ebe3d6;
+  box-shadow: 0px 2px 4px #ebe3d6;
+  color: #317E74;
+}
+
+.plots-view-btn:hover {
+    text-decoration: none;
+    background: #1B4843;
+    color: #EBE3D6;
+    box-shadow: 0px 2px 4px #ebe3d6;
+}
+
+/* AQUAHUBS Amenities */
+#Amenities {
+    background-color: #EBE3D6;
+}
+
+#Amenities h1{
+    margin: 190px 0 190px 80px;
+    color: #317e74;
+    font-family: 'Libre Baskerville', serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+#Amenities figure img {
+    height: 380px;
+}
+
+.accordion {
+    margin-top: 50px;
+}
+
+
+/* About */
+
+#About {
+    background-color: #1B4843;
+}
+
+#About h1 {
+    color: #ebe3d6;
+    font-family: 'Libre Baskerville', serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+#About p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+  line-height: 30px;
+}
+
+.about-h-para {
+    padding: 30px 40px 0 60px;
+}
+
+.about-img-container {
+    text-align: center;
+}
+
+.about-img {
+    width: 60%;
+    margin-top: 20px;
+    box-shadow: 0px 4px 25px 12px #317E74;
+}
+
+/* Testimonials */
+#Testimonials {
+    background-color: #1B4843;
+    text-align: center;
+    padding: 80px 80px 100px;
+}
+
+#Testimonials h1 {
+    color: #ebe3d6;
+    font-family: 'Libre Baskerville', serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 89px;
+  margin-bottom: 90px;
+}
+
+/* .carousel-inner {
+    padding-top: 40px;
+} */
+
+.testimonial-body {
+    margin: 0 auto;
+    width: 60%;
+    height: 200px;
+    background-color: #EBE3D6;
+    border-radius: 8px;
+    box-shadow: 0px 4px 25px rgba(235,227,214,0.5);
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #1B4843;
+    font-weight: 400;
+}
+
+.testimonial-body p {
+    position: absolute;
+    width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.name {
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+/* Contact */
+#Contact {
+    background-color: #EBE3D6;
+    padding: 40px  60px;
+}
+
+#Contact h1 {
+    color: #1b4843;
+    font-family: 'Libre Baskerville', serif;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+#Contact p {
+    color: #1B4843;
+    font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+#Contact span {
+    color: #317E74;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#Contact .address {
+    color: #317E74;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/* Copyright */
+#Copyright {
+    padding: 20px 20px 10px;
+    background-color: #317E74;
+    font-family: 'Libre Baskerville', serif;
+    color: #EBE3D6;
+    font-size: smaller;
+}
+
+@media  (min-width: 1366px) {
+    #Banner h1 {
+        font-size: 3.8rem;
+        margin: 150px 0 50px;
+    }
+/* #Banner-heading{
+    font-size: 380% !important;
+} */
+    #Banner a, .uts-view-btn, .ots-view-btn, .plots-view-btn, #About p, .testimonial-body, .name, #Contact p, #Contact span, #Contact .address {
+        font-size: 1rem;
+    }
+
+    #Hubs, #Plots {
+        font-size: 20px;
+    }
+
+    .under-the-surface h1, .on-the-surface h1 {
+        font-size: 54px;
+    }
+
+    #Amenities h1, #About h1 {
+        font-size: 64px;
+    }
+
+    #Testimonials h1, #Contact h1 {
+        font-size: 48px;
+    }
+
+    .nav-item {
+        font-size:1rem;
+       padding: 0 10px;
+    }
+
+    .dark-mode-btn {
+        font-size:1rem ;
+       
+    }
+
+    .contact-us-btn {
+        font-size: 1rem;
+        
+    }
+    #google_translate_element{
+        font-size: 3rem;
+    }
+    .uts-desc{
+        font-size: 1.3rem;
+    }
+}
+
+@media  all and (max-width: 500px) {
+    #Banner{
+        text-align:center;
+    }
+    #Banner h1 {
+        font-size: 2.5rem;
+        text-align:center;
+        margin: 100px 0 30px;
+    }
+/* #Banner-heading{
+    font-size: 380% !important;
+} */
+    #Banner a, #About p,  #Contact p, #Contact span, #Contact .address {
+        font-size: 1rem;
+    }
+#Banner a{
+    padding:20px 20px;
+   
+}
+
+.banner-img-container{
+   padding-top:1.5rem;
+   
+}
+    #Hubs, #Plots {
+        font-size: 20px;
+    }
+
+    .under-the-surface h1, .on-the-surface h1 {
+        font-size: 44px;
+    }
+
+    #Amenities h1, #About h1 {
+        text-align:center;
+        margin:auto;
+        margin-top:2rem;
+    }
+
+    #Testimonials h1 {
+        font-size: 2rem;
+        line-height: 40px;
+    }
+
+    .nav-item {
+        font-size:1rem;
+       padding: 0 10px;
+    }
+
+    .dark-mode-btn {
+        font-size:1rem ;
+       
+    }
+
+    .contact-us-btn {
+        font-size: 1rem;
+        
+    }
+    #google_translate_element{
+        font-size: 3rem;
+    }
+    .uts-desc{
+        font-size: 1.3rem;
+    }
+      .uts-img{
+         margin-top:2.5rem;
+        
+      }
+.ots-img{
+     margin-bottom:2.5rem;
+}
+      .ots-view-btn, .plots-view-btn ,.uts-view-btn{
+          padding:15px 40px ;
+      }
+      .testimonial-body{
+          font-size:0.7rem;
+          
+      }
+      #Contact h1{
+          padding-bottom: 1rem;
+      }
+      .name{
+          font-size:1rem;
+      }
+}
+
+
+

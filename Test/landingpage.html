@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUAHUBS Real Estates</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/accordion.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom inverted">
+        <a class="navbar-brand logo" href="#">
+            <img src="images/Logo.PNG" width="150" height="50" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse collapsable-items inverted" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Hubs
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#Hubs">Under The Surface Properties</a>
+                        <a class="dropdown-item" href="#OTS">On The Surface Properties</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Plots">Plots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Amenities">Amenities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark btn-sm dark-mode-btn" onclick="myFunction()">Dark
+                        Mode</button>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="#Contact" class="contact-us-btn">Contact Us</a>
+                    </form>
+                </li>
+            </ul>
+            <div id="google_translate_element">
+                <div class="skiptranslate goog-te-gadget" dir="ltr" style="">
+                    <div id=":0.targetLanguage">
+
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript"
+                src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section id="Banner" class="inverted">
+
+        <div class="row">
+
+            <div class="col-md-6 banner-heading-container">
+                <h1 id="Banner-heading" class='dark dark-mode-dark-green'>Luxurious Hubs for our new marine world</h1>
+                <a href="Cards.html" class="explore-view-btn inverted" onclick="allItems()">Explore All Properties</a>
+            </div>
+
+            <div class="col-md-6 banner-img-container">
+                <img src="images/1606559915720.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hubs -->
+    <section id="Hubs">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h1>Hubs</h1>
+                <p class="description">We bring an exquisite choices of Hubs, <br> both on and under the surface</p>
+
+            </div>
+
+            <div class="col-md-2 count">
+
+
+                <h2>550k</h2>
+                <p>AQUAHUBS Hub Owners</p>
+
+            </div>
+            <div class="col-md-3 count">
+
+
+                <h2>18</h2>
+                <p>Prime Locations</p>
+
+            </div>
+            <div class="col-md-2 count">
+
+
+                <h2>42</h2>
+                <p>Luxurious Projects</p>
+
+            </div>
+
+
+        </div>
+
+        <!-- Under The Surface Properties -->
+        <div class="under-the-surface">
+
+            <div class="row">
+
+                <div class="col-md-6 uts-div">
+                    <h1>Under The Surface <br>Properties</h1>
+                    <p class="uts-desc">Under the blue, a world awaits. <br> Experience it within your Hub.</p>
+                    <a href="Cards.html" class="uts-view-btn" onclick="utsPassValue()">View</a>
+                </div>
+
+                <div class="col-md-6 uts-img-container">
+                    <img src="images/eco-life-jan-11-cnn-5.jpg" alt="Under the Surface" class="uts-img inverted">
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- On The Surface Properties -->
+        <div class="on-the-surface inverted" id="OTS">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <img src="images/copy.jpg" alt="On the Surface" class="ots-img">
+                </div>
+
+                <div class="col-md-6">
+
+                    <h1 class="dark-mode-dark-green">On The Surface <br>Properties</h1>
+                    <p class="uts-desc dark-mode-dark-green">For those who prefer a mix of our world. <br> The
+                        atmosphere and the water.</p>
+                    <a href="Cards.html" class="ots-view-btn inverted" onclick="otsPassValue()">View</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PLOTS -->
+    <section id="Plots">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <h1 class="plots-heading">Plots</h1>
+                <p class="plot-description">Build your own Empire on one of our <br> wide spaced, open view plots.</p>
+
+
+            </div>
+
+            <div class="col-md-2 plot-count">
+
+
+                <h2>225k</h2>
+                <p>AQUAHUBS Plot Owners</p>
+
+            </div>
+            <div class="col-md-3 plot-count">
+
+
+                <h2>12</h2>
+                <p>Prime Locations</p>
+
+            </div>
+            <div class="col-md-2 plot-count">
+
+
+                <h2>34</h2>
+                <p>Prime Sectors</p>
+
+            </div>
+
+        </div>
+
+        <a href="Cards.html" class="plots-view-btn" onclick="plotPassValue()">View Plots</a>
+
+    </section>
+
+    <!-- AQUAHUBS Amenities -->
+    <section id="Amenities">
+
+        <div class="row">
+
+            <div class="col-md-5">
+                <h1>AQUAHUBS Amenities</h1>
+            </div>
+
+            <div class="col-md-7 accordion">
+                <div class="ia-container">
+
+                    <figure>
+                        <img src="images/1606559915693.jpg" alt="Spa/Entertainment Zone" class="inverted" />
+                        <input type="radio" name="radio-set" checked="checked" />
+                        <figcaption><span>Spa & Entertainment Zone</span></figcaption>
+
+                        <figure>
+                            <img src="images/1606559915707.jpg" alt="Open View Aquarium" class="inverted" />
+                            <input type="radio" name="radio-set" />
+                            <figcaption><span>Open View Aquarium</span></figcaption>
+
+                            <figure>
+                                <img src="images/56dc386edd089555548b4595.jpg" alt="image03" class="inverted" />
+                                <input type="radio" name="radio-set" />
+                                <figcaption><span>Luxurious Swimming Pool</span></figcaption>
+
+                                <figure>
+                                    <img src="images/1606559915666.jpg" alt="image04" class="inverted" />
+                                    <input type="radio" name="radio-set" />
+                                    <figcaption><span>Proximity to major locations</span></figcaption>
+
+                                    <figure>
+                                        <img src="images/1606559915676.jpg" alt="image05" class="inverted" />
+                                        <input type="radio" name="radio-set" />
+                                        <figcaption><span>Huge WaterMobile parking spaces</span></figcaption>
+
+                                        <figure>
+                                            <img src="images/_77335871_living-room.jpg" alt="image06"
+                                                class="inverted" />
+                                            <input type="radio" name="radio-set" />
+                                            <figcaption><span>Grand Dining Areas</span></figcaption>
+
+                                            <figure>
+                                                <img src="images/56a7c94ddd089591068b4658.jpg" alt="image07"
+                                                    class="inverted" />
+                                                <input type="radio" name="radio-set" />
+                                                <figcaption><span>Set on Prime Locations</span></figcaption>
+
+                                                <figure>
+                                                    <img src="images/1606480055233.jpg" alt="image08"
+                                                        class="inverted" />
+                                                    <input id="ia-selector-last" type="radio" name="radio-set" />
+                                                    <figcaption><span>Communal help always provided</span></figcaption>
+                                                </figure>
+
+                                            </figure>
+
+                                        </figure>
+
+                                    </figure>
+
+                                </figure>
+
+                            </figure>
+
+                        </figure>
+
+                    </figure>
+
+                </div><!-- ia-container -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- About Us -->
+    <section id="About" class="inverted">
+
+        <div class="row">
+
+            <div class="col-md-6 about-h-para">
+
+                <h1 class='dark-mode-dark-green'>About Us</h1>
+                <p>Life in the marine world is something new for all of us. It's different
+                    but
+                    beautiful, and we at
+                    AQUAHUBS Real Estates, aspire to make it more mesmerising. <br><br>We aim at providing our HUB
+                    owners
+                    with not only shelter, but also luxurious living with captivating views to increase their love for
+                    the ocean. <br> <br> Conceptualised in 2203, it has been 2 years of providing happiness to families
+                    across the ocean. <br> <br>We hope to continue our mission, provide the best of locations and
+                    projects,
+                    at the right budget to our beloved customers. <br>AQUAHUBS at your service. </p>
+            </div>
+
+            <div class="col-md-6 about-img-container">
+                <img src="images/1606559915734.jpg" alt="About Us Image" class="about-img">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section id="Testimonials" class="inverted">
+
+        <h1 class="dark-mode-dark-green">What AQUAHUBS property owners say</h1>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner inverted">
+                <div class="carousel-item active">
+                    <div class="testimonial-body">
+                        <p>"AQUAHUBS is a great place to find your dream Hub. Not only do they provide you with great
+                            locations but also great service"</p>
+                    </div>
+                    <p class="name">Emily Blanchett</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"The qaulity delivered by AQUAHUBS is outstanding. The kind of Hubs, construction and choice
+                            of plots selected by them are exquisite."</p>
+                    </div>
+                    <p class="name">Ronit Kapoor</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"Helpful service provided with guidance at every step of the way. Even after purchasing,
+                            AQUAHUBS stays in constant touch, which I really like."</p>
+                    </div>
+                    <p class="name">Jame Belloni</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"Living under water is something very difficult to adjust to, but after finding AQUAHUBS Real
+                            Estates, I and my family found the perfect location and an On The Surface Hub for us.
+                            <br>Thank
+                            you AQUAHUBS "</p>
+                    </div>
+                    <p class="name">Naomi Krugers</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"I love everything about AQUAHUBS. The amount of time they spend with each property and
+                            consumer is very good. My Pearl Islands Hub is just remarkable and has also facilities that
+                            any hub owner would want."</p>
+                    </div>
+                    <p class="name">N'gado Sutleni</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"My first investments were in AQUAHUBS Plots and I must say, I do not regret it."</p>
+                    </div>
+                    <p class="name">Kristoff Rendale</p>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-body">
+                        <p>"Beautiful views, rich atmosphere and amazing locations. It's pretty family friendly and
+                            safe.
+                            <br>Remarkable architecture without a doubt. "</p>
+                    </div>
+                    <p class="name">Francois Dubois</p>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Contact Us -->
+    <section id="Contact">
+
+        <h1>Contact Us</h1>
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+
+                <p>HydroMessage us at: <span>contact@aqauhubs.h20</span></p>
+                <p>HydroCall us at: <span>~11 9483746229</span></p>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <p>Address</p>
+                <p class="address">Marine Vines, Coral Reef Road <br>Sector 21XC, Almentia <br>490230</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Copyright -->
+    <section id="Copyright">
+        <p>&copy; 2020 AQUAHUBS</p>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script>
+        function myFunction() {
+            // $('.dark-mode-btn').text($(".dark-mode-btn").text() == "Dark Mode" ? "Dark Mode" : "Light mode");
+            document.documentElement.classList.toggle('dark-mode');
+            // document.getElementById('About-us-para').style.color = '#56A399';
+            document.querySelectorAll(".inverted").forEach((result) => {
+                result.classList.toggle('invert');
+            });
+            // document.querySelector('#Banner-header dark-mode-dark-green').classList.toggle('light-green');
+            jQuery('.dark-mode-dark-green').each(function () {
+                $(this).toggleClass('light-green');
+            })
+            if ($('.dark-mode-btn').text() === "Light Mode") {
+                $('.dark-mode-btn').text("Dark Mode");
+            } else {
+                $('.dark-mode-btn').text("Light Mode");
+            }
+        }
+        function allItems() {
+            var val = "Search by property name";
+            localStorage.setItem("itemSelected", val);
+            return false;
+        }
+        function utsPassValue() {
+            var utsval = $('.uts-view-btn').closest("div").find("h1").text();
+            localStorage.setItem("itemSelected", utsval);
+            return false;
+        }
+        function otsPassValue() {
+            var otsval = $('.ots-view-btn').closest("div").find("h1").text();
+            localStorage.setItem("itemSelected", otsval);
+            return false;
+        }
+        function plotPassValue() {
+            var plotsval = "Plots";
+            localStorage.setItem("itemSelected", plotsval);
+            return false;
+        }
+    </script>
+</body>
+
+</html>
