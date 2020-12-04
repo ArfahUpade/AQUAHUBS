@@ -129,7 +129,7 @@ body {
 /* HUBS */
 #Hubs {
     background-color: #EBE3D6;
-    padding: 50px;
+    padding: 100px 50px 50px 50px;
     font-family: 'Libre Baskerville', serif;
     color: #1B4843;
     font-weight: 700;
@@ -250,7 +250,7 @@ body {
 
 #Plots {
     background-color: #317E74;
-    padding: 50px 50px 80px;
+    padding: 100px 50px 80px;
     font-family: 'Libre Baskerville', serif;
     color: #1B4843;
     font-weight: 700;
@@ -328,6 +328,7 @@ body {
 /* About */
 
 #About {
+    padding-top: 100px;
     background-color: #1B4843;
 }
 
@@ -346,7 +347,7 @@ body {
 }
 
 .about-h-para {
-    padding: 30px 40px 0 60px;
+    padding: 10px 40px 0 60px;
 }
 
 .about-img-container {
