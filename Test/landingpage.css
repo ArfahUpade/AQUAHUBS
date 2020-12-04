@@ -597,6 +597,8 @@ body {
         background-color: #EBE3D6 !important;
     }
     #Landscape {
+        text-align: center;
+        position:fixed;
         visibility: visible;
         margin-top: 100px;
     }
